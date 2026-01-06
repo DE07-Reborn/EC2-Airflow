@@ -69,7 +69,7 @@ sudo curl -SL \
 sudo chmod +x /usr/local/lib/docker/cli-plugins/docker-compose
 ```
 
-### 4. Kafka 및 Zookeeper 컨테이너 실행
+### 4. Airflow Scheduler | init 및 Postgres 컨테이너 실행
 
 ```bash
 sudo docker compose up -d --build
